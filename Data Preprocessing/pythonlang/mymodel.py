@@ -33,7 +33,9 @@ print("\n")
 print(df['Salary'].isnull())
 
 
-#method 1
+#Different Methods to fill missing Data
+
+#method 1 
 
 df.loc[4,'Salary']=40000
 
